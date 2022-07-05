@@ -120,21 +120,33 @@
     box-sizing: border-box;
 }
 
-.body-txt.text-tile {
-    margin-top: 55px;
-    width: 250px;
-    height: 250px;
-}
-
-.text-tile p {
+.product {
+    width: 1040px;
+    height: 240px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 150px;
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
+    /* 上内边距 */
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* IE模盒型，怪异盒模型 */
+    box-sizing: border-box;
 }
 
 .product-icon {
     height: 150px;
+    /* background-color:yellow; */
     display: flex;
-    font-size: 15px;
+    justify-content: space-around;
+    font-size: 16px;
+    margin-top: 25px;
 }
 
-.product-icon img {}
+.product-icon img {
+    width: 85px;
+    margin-bottom: 10px;
+}
