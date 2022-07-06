@@ -670,7 +670,6 @@
     height: 100%;
     display: flex;
     margin-top: 200px;
-    margin-left: 280px;
 }
 
 .body-ten .containers .containers-lift .title-text {
@@ -696,18 +695,4 @@
     color: #858585;
     letter-spacing: 0;
     line-height: 28px;
-}
-
-.body-ten .containers .containers-rights img {
-    width: 380px;
-    height: 280px;
-    margin-left: 290px;
-    background: rgba(220, 230, 233, 0.951);
-    border-radius: 21px;
-    /* padding: 150px 5px 10px 50px; */
-}
-
-.nav {
-    margin-top: 15px;
-    text-align: center;
 }
